@@ -1,0 +1,66 @@
+.header {
+    height: 100px;
+    background: #0A121F;
+    width: 100%;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+.logo_container {
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo_title {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22.5px;
+    line-height: 31px;
+    color: #3A68B8;
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    margin-right: 256px;
+    margin-left: 84px;
+}
+
+.link {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 22px;
+    color: #FFFFFF;
+    cursor: pointer;
+    transition: all .15s linear;
+}
+
+.link:hover {
+    opacity: 0.5;
+}
+
+.button {
+    background: #3A68B8;
+    border-radius: 5px;
+    cursor: pointer;
+    height: 52px;
+    width: 112px;
+    border: none;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 22px;
+    color: #FFFFFF;
+}
