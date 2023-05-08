@@ -10,4 +10,4 @@
 
 **Ссылка на сайт:**
 
-* [ссылка на сайт в github pages](https://sxkzxqw.github.io/test-task-from-tg/)
+* [ссылка на сайт](https://sxkzxqw.github.io/test-task-from-tg/)
