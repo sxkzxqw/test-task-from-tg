@@ -67,3 +67,26 @@
 .slider_item_type_active {
     opacity: 1;
 }
+
+@media (max-width: 1400px) {
+    .list {
+        grid-template-rows: 1fr 1fr;
+        grid-template-columns: repeat(3, 1fr);
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+}
+
+@media (max-width: 1224px) {
+    .list {
+        grid-template-rows: 1fr 1fr 1fr;
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 880px) {
+    .list {
+        grid-template-rows: repeat(5, 1fr);
+        grid-template-columns: 1fr;
+    }
+}

@@ -25,7 +25,7 @@ const GetStartedSection = () => {
                         </button>
                     </div>
                 </div>
-                <img src={human} alt='human image' />
+                <img src={human} alt='human image' className={styles.human} />
             </div>
             <div className={styles.logos}>
                 <img src={first} alt='Logoipsum' />
